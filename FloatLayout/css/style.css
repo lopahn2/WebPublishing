@@ -1,0 +1,68 @@
+@font-face{  
+src:url("https://bakey-api.codeit.kr/files/587/fonts/BMJUA_otf.otf");  
+font-family: "codeits";  
+}  
+
+body {
+  background-color: ivory;  
+}
+
+div {
+  margin: auto auto;
+}
+
+* {  
+font-family : "codeits";  
+color: #58595B;
+box-sizing: border-box;
+}
+
+.imgContainer{
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: blue;
+}
+
+.bigBox {
+  width:660px;
+  height: 1000px;
+  margin: auto auto;
+}
+
+.grid {
+  float: left;
+  margin: 0 15px 50px 15px;
+  
+}
+
+.clearDiv{
+  clear:left;
+  
+}
+
+.textArea{
+  padding:20px;
+  width:300px;
+  height:200px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+.content{
+  text-align: center;
+}
+.subTitle {
+  font-size: 32px;
+  text-align: center;
+}
+
