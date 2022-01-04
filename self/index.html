@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- 이 문서가 html 5 버전이란걸 명시 -->
+<html>
+<head>
+	<!-- 웹문서 정보에 관한 내용은 head 안에 쓴다 -->
+  	<title>웹 공부 모음집</title>
+  	<meta charset="utf-8">
+	<!-- 브라우저의 인코딩을 utf-8로 설정해 한글이 안깨지게 해줘 -->
+	<link href="css/index.css" rel="stylesheet">
+	
+</head>
+<body>
+	<!-- 웹문서의 내용에 관한건 body 안에 쓴다 -->
+
+	<div id="defaultTag">
+		<p>텍스트를 굵게 쓰고 싶으면 <b>요렇게!</b> </p>
+		<p>굵게 쓰는 것에 의미를 부여하고 싶으면 <strong>이렇게!</strong> </p>
+		<p>텍스트를 날려 쓰고 싶으면 <i>요렇게!</i> </p>
+		<p>날려 쓰는 것에 의미를 부여하고 싶으면 <em>이렇게!</em> </p>  	
+	</div>
+	<div id="ankerTag">
+		<div class="aTagClass">
+			<p>
+				anker Tag로 이미지 링크로 만들기
+			</p>
+			<a href="https:/google.com">
+				<img alt="Google" src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F2%2F2f%2FGoogle_2015_logo.svg%2F368px-Google_2015_logo.svg.png&imgrefurl=https%3A%2F%2Fko.wikipedia.org%2Fwiki%2F%25EA%25B5%25AC%25EA%25B8%2580_%25EB%25A1%259C%25EA%25B3%25A0&tbnid=A0NenI6HBdTXjM&vet=12ahUKEwjB1qum6pf1AhWISfUHHYZkD8sQMygBegUIARDBAQ..i&docid=Ni_ZoVFjbFjTtM&w=368&h=124&itg=1&q=%EA%B5%AC%EA%B8%80%20%EC%9D%B4%EB%AF%B8%EC%A7%80&ved=2ahUKEwjB1qum6pf1AhWISfUHHYZkD8sQMygBegUIARDBAQ" width="50%">
+			</a>	
+		</div>
+		<div class="aTagClass">	
+			<p>
+			새로운 창에서 링크 열기
+			</p>
+			<a href="https://google.com" target="_blank">Visit Google.com!</a>
+		</div>
+		<div class="aTagClass">
+			<p>
+			자바스크립트 실행하기
+			</p>
+			<a href="javascript:alert('Hello World!');">Execute JavaScript</a>
+		</div>
+		<div class="aTagClass">
+			<p>
+			이런것도 할 수 있어요!
+			</p>
+			<a href="#bottom" id = "top">맨 아래로 가기!</a>
+		</div>
+	</div>
+	
+	<div id="listTag">
+		<div id="flexSide">
+			<div id="side">
+				<ul>
+					<li>JS</li>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>PIZZA</li>
+					<li>CHICKEN</li>
+					<li>SPAM</li>
+					<li>HUNGRY</li>
+					<li>GOHOME</li>
+				</ul>
+			</div>
+			<div id="textArea">
+				<div>
+					flex로 글씨를 가운데 정렬 해보아요
+				</div>
+			</div>	
+		</div>
+	</div>
+	<div id="defaultTag">
+		<div id="verticalAlignTag">
+			x
+			<span id="a">Alex</span>
+			<span id="b">Chaeun</span>
+			<span id="c">hwany</span>
+		</div>
+	</div>
+	<div id="defaultTag">
+		
+			vertical-align으로 가운데 정렬하기
+		
+		<div class="container">
+		x
+		<div class="helper"></div>
+		<div class="info">
+			<h1>Hello!</h1>
+			<p>My name is young.</p>
+	  	</div>
+		</div>
+	</div>
+	
+	<div id="positionTag">
+		<div id= "relativeTag">
+			relative Tag
+			<div id ="originalP"></div>
+			<div id ="relativeItem"></div>
+		</div>
+		<div id= "fixedTag">
+			fixed Tag
+			<div id ="originalF"></div>
+			<div id ="fixedItem">난 Fixed</div>
+		</div>
+		<div id= "absoluteTag">
+			absolute Tag
+			<div id ="originalA"></div>
+			<div id ="absoluteItem"></div>
+		</div>
+	</div>
+	
+	
+	<div id="footer">
+		<a href="#top" id="bottom">돌아가기</a>	
+	</div>
+	
+</body>
+</html>
